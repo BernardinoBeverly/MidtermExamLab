@@ -1,0 +1,110 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      To do lists
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid class="assigned">
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title><ion-icon class="ico" name="checkmark-done-sharp"></ion-icon>&nbsp;<b class= "number">15</b> Done </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title><ion-icon class="ico-pend" name="create-sharp"></ion-icon>&nbsp;<b class="pending">5</b> Pending</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="todos">
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>IT ELECTIVE 1 LAB</ion-card-title><br>
+            <ion-card-content>Accomplish activity No. 3 in IT Elective 1 LAB</ion-card-content>
+          </ion-card-header>
+          <ion-row class="buttons">
+            <ion-col>
+              <ion-button color="light">Remove</ion-button>
+              <ion-button color="success">Done</ion-button>
+              </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>IT ELECTIVE 2 LEC</ion-card-title><br>
+              <ion-card-content>Accomplish activity No. 2 in IT Elective 2 LEC</ion-card-content>
+            </ion-card-header>
+            <ion-row class="buttons">
+              <ion-col>
+                <ion-button color="light">Remove</ion-button>
+                <ion-button color="success">Done</ion-button>
+                </ion-col>
+            </ion-row>
+          </ion-card>
+        </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Mobile Design</ion-card-title><br>
+                <ion-card-content>Accomplish designing mobile application.</ion-card-content>
+              </ion-card-header>
+              <ion-row class="buttons">
+                <ion-col>
+                  <ion-button color="light">Remove</ion-button>
+                  <ion-button color="success">Done</ion-button>
+                  </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-card>
+                <ion-card-header>
+                  <ion-card-title>Python Game</ion-card-title><br>
+                  <ion-card-content>Make a simple game using python.</ion-card-content>
+                </ion-card-header>
+                <ion-row class="buttons">
+                  <ion-col>
+                    <ion-button color="light">Remove</ion-button>
+                    <ion-button color="success">Done</ion-button>
+                    </ion-col>
+                </ion-row>
+              </ion-card>
+            </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-card>
+                  <ion-card-header>
+                    <ion-card-title>Python: Currency Converter</ion-card-title><br>
+                    <ion-card-content>Make currency converter using Python language.</ion-card-content>
+                  </ion-card-header>
+                  <ion-row class="buttons">
+                    <ion-col>
+                      <ion-button color="light">Remove</ion-button>
+                      <ion-button color="success">Done</ion-button>
+                      </ion-col>
+                  </ion-row>
+                </ion-card>
+              </ion-col>
+              </ion-row>
+      </ion-grid>
+</ion-content>

@@ -1,0 +1,43 @@
+.login-form{
+  width: 85%;
+  margin: auto;
+  position: relative;
+  top: 190px;
+}
+
+ion-content ion-img{
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 90px;
+}
+
+ .login-form ion-item{
+   border-radius: 12px;
+ }
+
+ .login-form ion-input{
+  font-size: 18px;
+ }
+
+ .forgot-pass-text{
+   position: relative;
+   padding-top: 10px;
+   float: right;
+   right: 90px;
+ }
+
+ .account-sub-icons ion-icon{
+   width: 30px;
+   height: 30px;
+  padding-left: 25px;
+ }
+
+ .ion-text-center{
+color: #92949c;
+ }
+
+ .ico-field{
+   font-size: 28px;
+   padding-right: 10px;
+ }

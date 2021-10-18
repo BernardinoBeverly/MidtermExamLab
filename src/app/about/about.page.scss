@@ -1,0 +1,26 @@
+ion-content{
+  justify-content: center;
+  text-align: center;
+}
+
+.logo{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 52px;
+}
+
+.about-content{
+  position: relative;
+  top: 270px;
+}
+
+.about-content p{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.about-content ion-icon{
+  color: #ffc409;
+  font-size: 24px;
+}

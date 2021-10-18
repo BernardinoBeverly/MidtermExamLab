@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid style ="text-align: center">
+    <ion-row class="ion-justify-content-center" >
+       <ion-avatar class="ion-align-items-center">
+        <img src="/assets/images/avatar.jpg">
+         </ion-avatar>
+  </ion-row>
+  <div class ="context">
+    <h3>Beverly Bernardino</h3><p>3rd Yr. BSIT Student</p>
+</div>
+<ion-row>
+  <ion-col>
+    <ion-label>Current exp:<ion-progress-bar color="success" value="0.6"></ion-progress-bar></ion-label>
+  </ion-col>
+</ion-row>
+</ion-grid>
+<br>
+<ion-list>
+  <ion-list-header>Accomplishments &nbsp; <ion-icon class="trophy" name="trophy"></ion-icon></ion-list-header>
+  <ion-item>
+    <ion-label>Current Level</ion-label>
+    <ion-badge color="secondary" slot="end">17</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Current Exp</ion-label>
+    <ion-badge color="secondary" slot="end">60%</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Rank</ion-label>
+    <ion-badge color="success" slot="end">2</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Done tasks</ion-label>
+    <ion-badge color="success" slot="end">15</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Early submission</ion-label>
+    <ion-badge color="success" slot="end">15</ion-badge>
+  </ion-item>
+  </ion-list>
+      <ion-button expand="block" color="danger" href="login">Log out</ion-button>
+</ion-content>
